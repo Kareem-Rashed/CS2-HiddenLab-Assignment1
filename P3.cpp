@@ -5,7 +5,6 @@ using namespace std;
 
 
 
-
 int main(){
     
     ifstream input;
@@ -16,7 +15,7 @@ int main(){
     
     
     
-    for(int i = 0; i<3; i++)
+    for(int i = 0; i<3; i++)    // assuming there are three students
     {
         double total;
         double average;
@@ -43,4 +42,5 @@ int main(){
     
     return 0;
 }
+
 
